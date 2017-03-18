@@ -1,0 +1,14 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.primary {
+	color: #48BEEF;
+}

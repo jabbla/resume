@@ -1,0 +1,190 @@
+body {
+    font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
+
+/* TOP区域 */
+.top {
+    height: 180px;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.top .photo-wraper {
+    height: 180px;
+    line-height: 180px;
+}
+.top .photo {
+    width: 120px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.top .info {
+    width: calc(100% - 200px);
+    padding: 20px;
+}
+.info h2 {
+    color: #48BEEF;
+}
+.grey {
+    color: #6A6866;
+}
+/* Bottom Left区域 */
+
+.bottom .left {
+    width: calc(100% - 270px);
+}
+.intro {
+    margin-bottom: 8px;
+}
+.left .card {
+    border-radius: 2px;
+    padding: 15px 12px 10px 50px;
+    margin-bottom: 10px;
+}
+.card .title {
+    color: #48BEEF;
+    margin-bottom: 20px;
+}
+.card .title::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    margin-bottom: -25px;
+
+}
+.card.project .title::before {
+    background-image: url(./work.png);
+}
+.card.habbit .title::before {
+    background-image: url(./habbit.png);
+}
+
+.card .item {
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 15px;
+}
+.card .project-name {
+    padding: 0 0;
+}
+.card .project-name .subtitle {
+    font-family: -webkit-pictograph;
+    display: inline-block;
+    float: right;
+}
+.card .content {
+    color: #6A6866;
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.card .work {
+    color: black;
+}
+.card h3 {
+    font-weight: 500;
+}
+.left .link {
+    color: #48BEEF;
+}
+/* Bottom Right区域 */
+.bottom .right {
+    width: 250px;
+    background-color: #44BEEF;
+    box-shadow: 0 0 2px #44BEEF;
+    color: white;
+    padding: 25px 15px 15px 25px;
+
+}
+.right .title::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    margin-left: -30px;
+    margin-bottom: -25px;
+}
+.contact .title::before {
+    background-image: url(./contact.png);
+}
+.relate .title::before {
+    background-image: url(./site.png);   
+}
+.skill .title::before {
+    background-image: url(./skill.png);   
+}
+.right .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #464443;
+    padding-left: 30px;
+}
+.self .title {
+    padding-left: 0;
+}
+.self .title i {
+    margin-right: 10px;
+    color: white;
+}
+.right li {
+    padding: 5px;
+}
+.right ul {
+    margin-bottom: 20px;
+}
+.right li .icon {
+    padding: 0 5px;
+
+}
+.link {
+    color:white;
+}
+.skill .trem {
+    overflow: hidden;
+}
+.skill .bar {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    background-color: #0096C9;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.skill .bar::before {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+}
+.html::before {
+    left: calc(70% - 100%);
+}
+.css::before {
+    left: calc(75% - 100%);
+}
+.sass::before {
+    left: calc(65% - 100%);
+}
+.js::before {
+    left: calc(80% - 100%);
+}
+.js::before {
+    left: calc(80% - 100%);
+}
+.es6::before {
+    left: calc(60% - 100%);
+}
+.vue::before {
+    left: calc(70% - 100%);
+}
+.nodejs::before {
+    left: calc(50% - 100%);
+}
